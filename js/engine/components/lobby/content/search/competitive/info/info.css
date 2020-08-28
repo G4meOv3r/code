@@ -1,0 +1,67 @@
+.lobbyContentSearchCompetitiveInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: var(--primary-color);
+    align-items: center;
+    width: 890px;
+    height: 50px;
+    margin: 10px 5px 0 5px;
+    box-shadow: var(--primary-color) 0 0 5px;
+}
+
+.lobbyContentSearchCompetitiveInfo p {
+    user-select: none;
+}
+
+.lobbyContentSearchCompetitiveInfoTimer {
+    display: flex;
+}
+
+    .lobbyContentSearchCompetitiveInfoTimer p {
+        color: var(--secondary-color);
+        font-family: Whitney;
+        font-size: 16px;
+        font-weight: 800;
+        margin: 0;
+    }
+
+.lobbyContentSearchCompetitiveInfoInfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+    .lobbyContentSearchCompetitiveInfoInfo p {
+        color: var(--secondary-color);
+        font-family: Whitney Book;
+        font-size: 15px;
+        margin: 0 20px;
+        transition: color linear 200ms;
+    }
+
+.lobbyContentSearchCompetitiveInfoCancel {
+    display: flex;
+}
+
+    .lobbyContentSearchCompetitiveInfoCancel input[type=button] {
+        color: var(--secondary-color);
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        font-family: Whitney;
+        font-size: 16px;
+        font-weight: 800;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        transition: color linear 200ms;
+        border-radius: 3px;
+    }
+
+        .lobbyContentSearchCompetitiveInfoCancel input[type=button]:focus {
+            outline: none;
+            text-decoration: underline;
+        }
+
+        .lobbyContentSearchCompetitiveInfoCancel input[type=button]:hover {
+            text-decoration: underline;
+        }

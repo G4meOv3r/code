@@ -1,0 +1,44 @@
+.contestContentTaskCodeFile {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
+    .contestContentTaskCodeFile p {
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+        font-family: Whitney Book;
+        font-size: 15px;
+        padding: 0 5px;
+        user-select: none;
+        margin: 0;
+        height: 20px;
+    }
+
+    .contestContentTaskCodeFile input[type=file] {
+        display: none;
+    }
+
+    .contestContentTaskCodeFile input[type=button] {
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+        font-family: Whitney Book;
+        font-size: 15px;
+        text-decoration: underline;
+        margin: 0;
+        user-select: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        height: 20px;
+    }
+
+        .contestContentTaskCodeFile input[type=button]:focus {
+            outline: none;
+            text-decoration: underline;
+        }
+
+        .contestContentTaskCodeFile input[type=button]:hover {
+            text-decoration: underline;
+        }

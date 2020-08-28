@@ -1,0 +1,15 @@
+.contestStatusTimer {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+    .contestStatusTimer p {
+        font-family: Whitney;
+        font-size: 15px;
+        font-weight: 800;
+        margin: 0;
+    }

@@ -1,0 +1,19 @@
+.contestStatusQuit {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-family: Whitney Book;
+    font-size: 15px;
+    height: 30px;
+    padding: 0;
+}
+
+    .contestStatusQuit:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+
+    .contestStatusQuit:hover {
+        text-decoration: underline;
+    }

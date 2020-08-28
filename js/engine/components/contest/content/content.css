@@ -1,0 +1,8 @@
+.contestContent {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 0px;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0 0 0;
+}

@@ -1,0 +1,33 @@
+.lobbyContent {
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    margin: 40px 0 0 0
+}
+
+.lobbyContentMenu input[type=button] {
+    color: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: auto;
+    cursor: pointer;
+    font-size: 22px;
+    height: 40px;
+    font-family: Whitney Book;
+    transition: font-size, font-family, linear 100ms;
+}
+
+    .lobbyContentMenu input[type=button]:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+
+    .lobbyContentMenu input[type=button]:hover {
+        text-decoration: underline;
+    }
+
+    .lobbyContentMenu input[type=button]:disabled {
+        font-family: Whitney;
+        font-weight: 800;
+        font-size: 24px;
+    }

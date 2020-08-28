@@ -1,0 +1,53 @@
+.contestContentTaskHistory {
+    margin: 10px 0 50px 0;
+}
+
+.contestContentTaskHistory hr {
+    border-color: var(--primary-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.contestContentTaskHistory h1 {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-family: Whitney;
+    font-size: 25px;
+    padding: 0;
+    margin: 15px 0 5px 0;
+    user-select: none;
+    text-shadow: 0px 3px var(--primary-shadow-color);
+}
+
+    .contestContentTaskHistory table {
+        width: 100%;
+        color: var(--primary-color);
+        background-color: rgba(0, 0, 0, 0);
+        font-family: Whitney Book;
+        border-collapse: collapse;
+        font-size: 14px;
+        user-select: none;
+    }
+
+
+    .contestContentTaskHistory th {
+        width: 25%;
+        text-align: center;
+        border-left: 1px solid var(--primary-color);
+        border-right: 1px solid var(--primary-color);
+        font-weight: 800;
+    }
+
+    .contestContentTaskHistory tr {
+        width: 25%;
+        text-align: center;
+        text-align: center;
+        cursor: pointer;
+        height: 25px;
+        transition: opacity linear 200ms;
+    }
+
+    .contestContentTaskHistory td {
+        transition: opacity linear 200ms;
+    }

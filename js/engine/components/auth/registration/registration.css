@@ -1,0 +1,166 @@
+.authRegistration {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 350px;
+}
+
+.authRegistrationLogo {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 150px;
+    margin: 0 0 50px 0;
+}
+
+    .authRegistrationLogo img {
+        height: 150px;
+        width: 150px;
+    }
+
+.authRegistrationTypes {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 50px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+    .authRegistrationTypes input[type='button'] {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: var(--primary-color);
+        cursor: pointer;
+        font-family: Whitney Book;
+        font-size: 18px;
+        font-weight: 800;
+        padding: 0px;
+    }
+
+    .authRegistrationTypes input[type=button]:hover {
+        text-decoration: underline;
+    }
+
+    .authRegistrationTypes input[type=button]:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+
+.authRegistrationInner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 230px;
+    padding: 20px 0 0 0;
+}
+
+    .authRegistrationInner input[type='email'], input[type='password'] {
+        color: var(--primary-color);
+        -webkit-box-shadow: inset 0 0 0 50px var(--secondary-color) !important;
+        border: none;
+        border-bottom: 1px solid var(--primary-color);
+        font-family: Whitney Book;
+        font-size: 16px;
+        margin: 30px 0 20px 0;
+        padding: 0 0 5px 30px;
+        width: 100%;
+    }
+
+    .authRegistrationInner input {
+        outline: none;
+    }
+
+.authRegistrationSubmit {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 40px;
+    align-items: center;
+}
+
+    .authRegistrationSubmit p {
+        color: var(--error-color);
+        cursor: default;
+        font-family: Whitney Book;
+        font-size: 15px;
+        width: 280px;
+        margin: 0 10px 0 0;
+        user-select: none;
+    }
+
+    .authRegistrationSubmit input[type='button'] {
+        background-color: var(--primary-color);
+        border: none;
+        box-shadow: var(--primary-color) 0px 0px 5px;
+        color: var(--secondary-color);
+        cursor: pointer;
+        display: flex;
+        font-family: Whitney Book;
+        font-size: 16px;
+        font-weight: 800;
+        height: 35px;
+        justify-content: center;
+        padding: 0px;
+        width: 120px;
+        outline: none;
+    }
+
+        .authRegistrationSubmit input[type='button']:focus {
+            text-decoration: underline;
+        }
+
+.authRegistrationRemember {
+    display: flex;
+    flex: 0 0 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+    .authRegistrationRemember div {
+        height: 15px;
+        width: 15px;
+        margin: 0 10px 0 0;
+        border: 2px solid var(--primary-color);
+        cursor: pointer;
+        transition: background-color linear 100ms;
+    }
+
+    .authRegistrationRemember input[type=checkbox] {
+        opacity: 0;
+    }
+
+    .authRegistrationRemember p {
+        font-family: Whitney Book;
+        font-size: 16px;
+        user-select: none;
+    }
+
+.authRegistrationNavigate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .authRegistrationNavigate input[type='button'] {
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: var(--primary-color);
+        cursor: pointer;
+        display: flex;
+        font-family: Whitney Book;
+        font-size: 13px;
+        height: 20px;
+        justify-content: center;
+        padding: 0px;
+        width: auto;
+        outline: none;
+    }
+
+        .authRegistrationNavigate input[type='button']:focus {
+            text-decoration: underline;
+        }
+
+        .authRegistrationNavigate input[type='button']:hover {
+            text-decoration: underline;
+        }

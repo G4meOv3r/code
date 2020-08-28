@@ -1,0 +1,33 @@
+.cm-s-rosecode.CodeMirror { background: var(--code-background-color); color: var(--code-color) }
+.cm-s-rosecode .CodeMirror-gutters { background: var(--code-gutters-background-color); border-right: 1px solid #aaa; }
+.cm-s-rosecode .CodeMirror-guttermarker { color: #FFBD40; }
+.cm-s-rosecode .CodeMirror-guttermarker-subtle { color: #78846f; }
+.cm-s-rosecode .CodeMirror-linenumber { color: var(--code-linenumber-color); }
+.cm-s-rosecode .CodeMirror-cursor { border-left: 1px solid var(--code-cursor-color); }
+
+.cm-s-rosecode span.cm-comment     { color: var(--code-comment-color); }
+.cm-s-rosecode span.cm-def         { color: var(--code-def-color); font-weight:bold; }
+.cm-s-rosecode span.cm-keyword     { color: var(--code-keyword-color); }
+.cm-s-rosecode span.cm-builtin     { color: var(--code-builtin-color); }
+.cm-s-rosecode span.cm-variable    { color: var(--code-variable-color); }
+.cm-s-rosecode span.cm-string      { color: var(--code-string-color); }
+.cm-s-rosecode span.cm-number      { color: var(--code-number-color); }
+.cm-s-rosecode span.cm-atom        { color: var(--code-atom-color); }
+
+.cm-s-rosecode span.cm-variable-2  { var(--code-variable-2-color); }
+.cm-s-rosecode span.cm-variable-3, .cm-s-rosecode span.cm-type { var(--code-variable-3-color); }
+.cm-s-rosecode span.cm-property    {}
+.cm-s-rosecode span.cm-operator    {}
+
+.cm-s-rosecode span.cm-meta        { color: var(--code-meta-color); }
+.cm-s-rosecode span.cm-qualifier   { color: #FFF700; }
+.cm-s-rosecode span.cm-bracket     { color: #cc7; }
+.cm-s-rosecode span.cm-tag         { color: #FFBD40; }
+.cm-s-rosecode span.cm-attribute   { color: #FFF700; }
+.cm-s-rosecode span.cm-error       { color: #f00; }
+
+.cm-s-rosecode div.CodeMirror-selected { background: var(--code-selected-background-color); }
+
+.cm-s-rosecode span.cm-compilation { background: rgba(255, 255, 255, 0.12); }
+
+.cm-s-rosecode .CodeMirror-activeline-background { background: #253540; }

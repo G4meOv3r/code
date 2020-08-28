@@ -1,0 +1,40 @@
+.lobbyContentSearch {
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+}
+
+.lobbyContentSearchMenu {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 30px;
+    align-items: flex-end;
+}
+
+    .lobbyContentSearchMenu input[type=button] {
+        color: var(--primary-color);
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        font-family: Whitney Book;
+        font-size: 16px;
+        width: auto;
+        height: 30px;
+        cursor: pointer;
+        transition: font-size, font-family, linear 100ms;
+    }
+
+        .lobbyContentSearchMenu input[type=button]:focus {
+            outline: none;
+            text-decoration: underline;
+        }
+
+        .lobbyContentSearchMenu input[type=button]:hover {
+            text-decoration: underline;
+        }
+
+        .lobbyContentSearchMenu input[type=button]:disabled {
+            font-family: Whitney;
+            color: var(--primary-color);
+            font-weight: 800;
+            font-size: 18px;
+        }

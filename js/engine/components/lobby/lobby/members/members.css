@@ -1,0 +1,6 @@
+.lobbyMembers {
+    display: flex;
+    flex: 8 0 0px;
+    justify-content: center;
+    align-items: center;
+}

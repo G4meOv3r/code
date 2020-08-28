@@ -1,0 +1,28 @@
+.lobbyContentSearchCompetitive {
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+}
+
+.lobbyContentSearchCompetitiveCards {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 415px;
+    margin: 20px 0 0 0;
+    align-content: flex-start;
+}
+
+.lobbyContentSearchCompetitiveSearcher {
+    display: flex;
+    height: 55px;
+    margin: 10px 5px 0 5px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-content: space-around;
+    color: var(--secondary-color);
+    transition: background-color linear 200ms;
+}

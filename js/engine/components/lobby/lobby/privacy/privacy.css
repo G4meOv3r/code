@@ -1,0 +1,50 @@
+.lobbyPrivacy {
+    display: flex;
+    flex: 2 0 0px;
+    flex-direction: column;
+}
+
+.lobbyPrivacyTitle {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+    .lobbyPrivacyTitle p {
+        color: var(--primary-color);
+        font-family: Whitney Book;
+        font-size: 15px;
+        margin: 0;
+        font-weight: 800;
+        user-select: none;
+    }
+
+.lobbyPrivacySetting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .lobbyPrivacySetting p {
+        color: var(--primary-color);
+        font-family: Whitney Book;
+        font-size: 13px;
+        margin: 0;
+        user-select: none;
+    }
+
+    .lobbyPrivacySetting div {
+        height: 10px;
+        width: 10px;
+        margin: 0 5px 0 0;
+        border: 2px solid var(--primary-color);
+        transition: background-color linear 100ms;
+        border-radius: 100%;
+    }
+
+    .lobbyPrivacySetting input[type=radio] {
+        opacity: 0;
+        cursor: pointer;
+    }

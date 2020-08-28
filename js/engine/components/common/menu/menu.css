@@ -1,0 +1,40 @@
+.menu {
+    align-items: center;
+    border-bottom: 1px solid var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+}
+
+.menuLogo {
+    padding: 0 10px;
+    border-right: 1px solid var(--primary-color);
+}
+
+.menuLogo img {
+    height: 30px;
+    width: 120px;
+}
+
+.menu input[type=button] {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-family: Whitney Book;
+    font-size: 15px;
+    height: 30px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.menu input[type=button]:hover {
+    text-decoration: underline;
+}
+
+.menu input[type=button]:focus {
+    outline: none;
+    text-decoration: underline;
+}

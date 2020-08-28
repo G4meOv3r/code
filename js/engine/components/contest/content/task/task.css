@@ -1,0 +1,63 @@
+.contestContentTask {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0px;
+    width: 100%;
+    margin: 0;
+}
+
+.contestContentTaskMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 20px;
+    padding: 0 0 5px 0;
+}
+
+    .contestContentTaskMenu input[type=button] {
+        color: var(--primary-color);
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        font-family: Whitney Book;
+        font-size: 14px;
+        width: auto;
+        cursor: pointer;
+        transition: font-size, font-family, linear 100ms;
+        padding: 0;
+        margin: 0 10px 0 0;
+    }
+
+        .contestContentTaskMenu input[type=button]:focus {
+            outline: none;
+            text-decoration: underline;
+        }
+
+        .contestContentTaskMenu input[type=button]:hover {
+            text-decoration: underline;
+        }
+
+        .contestContentTaskMenu input[type=button]:disabled {
+            font-family: Whitney;
+            color: var(--primary-color);
+            font-weight: 800;
+            font-size: 16px;
+        }
+
+.contestContentTask > hr {
+    border-color: var(--primary-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0;
+}
+
+.contestContentTaskInner {
+    display: flex;
+    flex-direction: column;
+    flex: 0px;
+    overflow: auto;
+}
+
+    .contestContentTaskInner::-webkit-scrollbar {
+        width: 0;
+    }

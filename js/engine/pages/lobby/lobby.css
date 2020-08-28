@@ -1,0 +1,33 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pageMenu {
+    height: 40px;
+}
+
+.pageInner {
+    display: flex;
+    flex: 1 1 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pageInnerLeft {
+    flex: 1 0 0px;
+}
+
+.pageInnerCentral {
+    display: flex;
+    flex: 2 0 800px;
+    max-width: 900px;
+    flex-direction: column;
+}
+
+.pageInnerRight {
+    flex: 1 0 0px;
+}
+
+

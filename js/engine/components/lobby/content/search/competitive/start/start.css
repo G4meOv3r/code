@@ -1,0 +1,32 @@
+.lobbyContentSearchCompetitiveStart {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: none;
+    font-family: Whitney;
+    font-size: 16px;
+    font-weight: 800;
+    width: 890px;
+    height: 50px;
+    cursor: pointer;
+    transition: color, background-color, box-shadow, linear 200ms;
+    margin: 10px 5px 0 5px;
+    padding: 0;
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--primary-color) 0 0 5px;
+}
+
+    .lobbyContentSearchCompetitiveStart:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+
+    .lobbyContentSearchCompetitiveStart:hover {
+        text-decoration: underline;
+    }
+
+    .lobbyContentSearchCompetitiveStart:disabled {
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+        cursor: default;
+        box-shadow: var(--primary-color) 0 0 0px;
+    }

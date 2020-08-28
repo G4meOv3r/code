@@ -1,0 +1,47 @@
+/*
+
+    Name:       site-night
+    Author:     kRkk (https://github.com/krkk)
+
+    Original gruvbox color scheme by Pavel Pertsev (https://github.com/morhetz/gruvbox)
+
+*/
+
+
+
+.CodeMirror-vscrollbar::-webkit-scrollbar { width: 6px; background-color: rgba(0, 0, 0, 0); }
+.CodeMirror-vscrollbar::-webkit-scrollbar-thumb { background-color: #070714 }
+
+.CodeMirror-hscrollbar::-webkit-scrollbar { height: 6px; background-color: rgba(0, 0, 0, 0); }
+.CodeMirror-hscrollbar::-webkit-scrollbar-thumb { background-color: #070714; }
+
+.CodeMirror-scrollbar-filler { background-color: #141428; }
+
+.cm-s-site-night.CodeMirror, .cm-s-site-night .CodeMirror-gutters { background-color: #141428; color: #bdae93; }
+.cm-s-site-night .CodeMirror-gutters {background: #070714; border-right: 0px;}
+.cm-s-site-night .CodeMirror-linenumber {color: #7c6f64;}
+.cm-s-site-night .CodeMirror-cursor { border-left: 1px solid #ebdbb2; }
+.cm-s-site-night div.CodeMirror-selected { background: #202040; }
+.cm-s-site-night span.cm-meta { color: #83a598; }
+
+.cm-s-site-night span.cm-comment { color: #606080; }
+.cm-s-site-night span.cm-number, span.cm-atom { color: #9090b0; }
+.cm-s-site-night span.cm-keyword { color: #f84934; }
+
+.cm-s-site-night span.cm-variable { color: #ebdbb2; }
+.cm-s-site-night span.cm-variable-2 { color: #ebdbb2; }
+.cm-s-site-night span.cm-variable-3, .cm-s-site-night span.cm-type { color: #fabd2f; }
+.cm-s-site-night span.cm-operator { color: #ebdbb2; }
+.cm-s-site-night span.cm-callee { color: #ebdbb2; }
+.cm-s-site-night span.cm-def { color: #ebdbb2; }
+.cm-s-site-night span.cm-property { color: #ebdbb2; }
+.cm-s-site-night span.cm-string { color: #b8bb26; }
+.cm-s-site-night span.cm-string-2 { color: #8ec07c; }
+.cm-s-site-night span.cm-qualifier { color: #8ec07c; }
+.cm-s-site-night span.cm-attribute { color: #8ec07c; }
+
+.cm-s-site-night .CodeMirror-activeline-background { background: #3c3836; }
+.cm-s-site-night .CodeMirror-matchingbracket { background: #928374; color:#282828 !important; }
+
+.cm-s-site-night span.cm-builtin { color: #fe8019; }
+.cm-s-site-night span.cm-tag { color: #fe8019; }

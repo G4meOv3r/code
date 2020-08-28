@@ -1,0 +1,21 @@
+.lobbySearchCompetitiveFoundConfirm {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: none;
+    width: 200px;
+    height: 55px;
+    font-family: Whitney;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: var(--primary-color) 0 0 7px;
+}
+
+    .lobbySearchCompetitiveFoundConfirm:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+
+    .lobbySearchCompetitiveFoundConfirm:hover {
+        text-decoration: underline;
+    }

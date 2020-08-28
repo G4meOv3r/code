@@ -1,0 +1,32 @@
+.lobbyCreate {
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    margin: 40px 0 0 0;
+}
+
+.lobbyCreateMenu {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 40px;
+    align-items: flex-end;
+}
+
+    .lobbyCreateMenu input[type=button] {
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        font-family: Whitney;
+        font-size: 30px;
+        width: auto;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .lobbyCreateMenu input[type=button]:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+
+    .lobbyCreateMenu input[type=button]:hover {
+        text-decoration: underline;
+    }

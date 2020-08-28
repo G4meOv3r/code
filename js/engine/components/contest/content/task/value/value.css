@@ -1,0 +1,34 @@
+.contestContentTaskValue {
+    margin: 0;
+}
+
+    .contestContentTaskValue h1 {
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+        font-family: Whitney;
+        font-size: 25px;
+        padding: 0;
+        margin: 20px 0 5px 0;
+        user-select: none;
+        text-shadow: 0px 3px var(--primary-shadow-color);
+    }
+
+    .contestContentTaskValue p {
+        color: var(--primary-color);
+        background-color: rgba(0, 0, 0, 0);
+        font-family: Whitney Book;
+        margin: 0;
+        text-indent: 20px;
+        font-size: 16px;
+    }
+
+    .contestContentTaskValue p b {
+        font-family: Whitney;
+    }
+
+    .contestContentTaskValue hr {
+        border-color: var(--primary-color);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }

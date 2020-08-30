@@ -1,7 +1,7 @@
 <?php
 
 function getMongoDBManager() {
-	return new MongoDB\Driver\Manager('mongodb://localhost:27017');
+	return new MongoDB\Driver\Manager('mongodb://127.0.0.1/');
 }
 
 //Query

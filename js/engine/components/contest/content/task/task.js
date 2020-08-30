@@ -84,7 +84,7 @@ class ContestContentTaskComponent extends Component {
 							component.objComponents.ContestContentTaskCodeComponent = new ContestContentTaskCodeComponent(component, component.elHTML.find(".contestContentTaskInner"), null, { numTaskNumber: component._numTaskNumber });
 							component._bProgress = true;
                         }
-						component.objComponents.ContestContentTaskHistoryComponent = new ContestContentTaskHistoryComponent(component, component.elHTML.find(".contestContentTaskInner"), 100, { numTaskNumber: component._numTaskNumber });
+						component.objComponents.ContestContentTaskHistoryComponent = new ContestContentTaskHistoryComponent(component, component.elHTML.find(".contestContentTaskInner"), 500, { numTaskNumber: component._numTaskNumber });
 
 						component.ready(true);
 						break;

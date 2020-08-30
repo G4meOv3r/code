@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\js",
+    "\\js\\engine",
+    "\\js\\engine\\components",
+    "\\js\\engine\\components\\contest",
+    "\\js\\engine\\components\\contest\\content",
+    "\\js\\engine\\components\\contest\\content\\task",
+    "\\js\\engine\\components\\contest\\content\\task\\code",
+    "\\js\\engine\\components\\contest\\content\\task\\history",
+    "\\js\\engine\\components\\contest\\content\\task\\value"
+  ],
+  "SelectedNode": "\\js\\engine\\components\\contest\\content\\task\\history\\history.css",
+  "PreviewInSolutionExplorer": false
+}

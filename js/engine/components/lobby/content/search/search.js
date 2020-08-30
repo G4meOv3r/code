@@ -31,7 +31,7 @@ class LobbyContentSearchComponent extends Component {
         this.elHTML.find("input[name=" + window.location.pathname.split("/")[3] + "]").prop("disabled", true);
         switch (window.location.pathname.split("/")[3]) {
             case "competitive":
-                this.objComponents.LobbyContentSearchCompetitiveComponent = new LobbyContentSearchCompetitiveComponent(this, $(".lobbyContentSearch"), 100);
+                this.objComponents.LobbyContentSearchCompetitiveComponent = new LobbyContentSearchCompetitiveComponent(this, $(".lobbyContentSearch"), 500);
                 break;
             case "custom":
                 //this.objComponents.LobbySearchCustomComponent = new LobbySearchCustomComponent($(".lobbySearchInner"), 100);

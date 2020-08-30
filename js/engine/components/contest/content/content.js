@@ -15,7 +15,7 @@ class ContestContentComponent extends Component {
 		this.elHTML = this.elRoot.append("<div class='contestContent' style='opacity: 0'> </div>").find(".contestContent");
 
 		//Other Components
-		this.objComponents.ContestContentTaskComponent = new ContestContentTaskComponent(this, this.elHTML, 100);
+		this.objComponents.ContestContentTaskComponent = new ContestContentTaskComponent(this, this.elHTML, 500);
 
 		this.ready(true);
 	}

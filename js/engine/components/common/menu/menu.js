@@ -22,7 +22,7 @@ class MenuComponent extends Component {
 	preload() {
 		let html = "";
 		if (window.engine.getCookie("USID")) {
-			html += "<div class='menu' style='opacity: 0'> <div class='menuLogo'> <img src='/logo.svg'> </div> <input type='button' href='/lobby/search/competitive' value='Новый матч'> <input type='button' href='/lobby/search/competitive' value='Ваши матчи'> <input type='button' href='/blog' value='Блог'> <input type='button' href='/profile' value='Профиль'> <input type='button' href='/logout' value='Выход'> </div>";
+			html += "<div class='menu' style='opacity: 0'> <div class='menuLogo'> <h1> CODE </h1> </div> <input type='button' href='/lobby/search/competitive' value='Новый матч'> <input type='button' href='/lobby/search/competitive' value='Ваши матчи'> <input type='button' href='/blog' value='Блог'> <input type='button' href='/profile' value='Профиль'> <input type='button' href='/logout' value='Выход'> </div>";
 		} else {
 			html += "<div class='menu' style='opacity: 0'> <div class='menuLogo'> <img src='/logo.svg'> </div> <input type='button' href='/auth/login' value='Вход'> <input type='button' href='/auth/registration' value='Регистрация'>";
 		}

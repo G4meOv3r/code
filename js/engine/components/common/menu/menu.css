@@ -18,6 +18,15 @@
     width: 120px;
 }
 
+    .menuLogo h1 {
+        font-family: Whitney;
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: var(--primary-color);
+        user-select: none;
+        margin: 0;
+    }
+
 .menu input[type=button] {
     background-color: rgba(0, 0, 0, 0);
     border: none;

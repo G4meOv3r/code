@@ -17,6 +17,16 @@
         width: 150px;
     }
 
+    .authLoginLogo h1 {
+		font-weight: 800;
+		font-family: Whitney;
+		font-size: 60px;
+		letter-spacing: 15px;
+		color: var(--primary-color);
+		user-select: none;
+		margin-bottom: 0px;
+    }
+
 .authLoginTypes {
     display: flex;
     flex-direction: row;

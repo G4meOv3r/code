@@ -38,7 +38,7 @@ class LobbyContentComponent extends Component {
                 this.objComponents.LobbyContentSearchComponent = new LobbyContentSearchComponent(this, $(".lobbyContent"), null);
                 break;
             case "create":
-                this.objComponents.LobbyContentCreateComponent = new LobbyContentCreateComponent(this, $(".lobbyContent"), 500);
+                this.objComponents.LobbyContentCreateComponent = new LobbyContentCreateComponent(this, $(".lobbyContent"), 100);
                 break;
         }
     }

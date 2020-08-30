@@ -57,10 +57,10 @@ class LobbyContentSearchCompetitiveFoundComponent extends Component {
                         break;
                     case 0:
                         if (json.data.selfStatus == 0) {
-                            component.objComponents.LobbyContentSearchCompetitiveFoundConfirmComponent = new LobbyContentSearchCompetitiveFoundConfirmComponent(component, $(".lobbyContentSearchCompetitiveFoundInner"), 500);
+                            component.objComponents.LobbyContentSearchCompetitiveFoundConfirmComponent = new LobbyContentSearchCompetitiveFoundConfirmComponent(component, $(".lobbyContentSearchCompetitiveFoundInner"), 100);
                             component._bConfirmed = false;
                         } else {
-                            component.objComponents.LobbyContentSearchCompetitiveFoundInfoComponent = new LobbyContentSearchCompetitiveFoundInfoComponent(component, $(".lobbyContentSearchCompetitiveFoundInner"), 500);
+                            component.objComponents.LobbyContentSearchCompetitiveFoundInfoComponent = new LobbyContentSearchCompetitiveFoundInfoComponent(component, $(".lobbyContentSearchCompetitiveFoundInner"), 100);
                             component._bConfirmed = true;
                         }
                         component.remaining = json.data.remaining;

@@ -41,12 +41,12 @@ class LobbyContentSearchCompetitiveComponent extends Component {
 				for (let i = 1; i <= 5; i++) {
 					this.removeComponent("LobbyContentSearchCompetitiveCardComponent" + i);
 				}
-				this.objComponents.LobbyContentSearchCompetitiveFoundComponent = new LobbyContentSearchCompetitiveFoundComponent(this, $(".lobbyContentSearchCompetitiveCards"), 500);
+				this.objComponents.LobbyContentSearchCompetitiveFoundComponent = new LobbyContentSearchCompetitiveFoundComponent(this, $(".lobbyContentSearchCompetitiveCards"), 100);
 			} else {
 				this.removeComponent("LobbyContentSearchCompetitiveFoundComponent");
-				this.objComponents.LobbyContentSearchCompetitiveCardComponent1 = new LobbyContentSearchCompetitiveCardComponent(this, $(".lobbyContentSearchCompetitiveCards"), 500, { numComponentNumber: 1, strComponentStyle: "flex: 0 0 888px; margin: 0 5px 10px 5px" });
+				this.objComponents.LobbyContentSearchCompetitiveCardComponent1 = new LobbyContentSearchCompetitiveCardComponent(this, $(".lobbyContentSearchCompetitiveCards"), 100, { numComponentNumber: 1, strComponentStyle: "flex: 0 0 888px; margin: 0 5px 10px 5px" });
 				for (let i = 2; i <= 5; i++) {
-					this.objComponents["LobbyContentSearchCompetitiveCardComponent" + i] = new LobbyContentSearchCompetitiveCardComponent(this, $(".lobbyContentSearchCompetitiveCards"), 500, { numComponentNumber: i, strComponentStyle: "" });
+					this.objComponents["LobbyContentSearchCompetitiveCardComponent" + i] = new LobbyContentSearchCompetitiveCardComponent(this, $(".lobbyContentSearchCompetitiveCards"), 100, { numComponentNumber: i, strComponentStyle: "" });
 				}
             }
 		}
@@ -82,11 +82,11 @@ class LobbyContentSearchCompetitiveComponent extends Component {
         this.elHTML = this.elRoot.append(html).find(".lobbyContentSearchCompetitive");
 
 		//Other Components
-		this.objComponents.LobbyContentSearchCompetitiveCardComponent1 = new LobbyContentSearchCompetitiveCardComponent(this, $(".lobbyContentSearchCompetitiveCards"), 500, { numComponentNumber: 1, strComponentStyle: "flex: 0 0 888px; margin: 0 5px 10px 5px" });
+		this.objComponents.LobbyContentSearchCompetitiveCardComponent1 = new LobbyContentSearchCompetitiveCardComponent(this, $(".lobbyContentSearchCompetitiveCards"), 100, { numComponentNumber: 1, strComponentStyle: "flex: 0 0 888px; margin: 0 5px 10px 5px" });
 		for (let i = 2; i <= 5; i++) {
-			this.objComponents["LobbyContentSearchCompetitiveCardComponent" + i] = new LobbyContentSearchCompetitiveCardComponent(this, $(".lobbyContentSearchCompetitiveCards"), 500, { numComponentNumber: i, strComponentStyle: "" });
+			this.objComponents["LobbyContentSearchCompetitiveCardComponent" + i] = new LobbyContentSearchCompetitiveCardComponent(this, $(".lobbyContentSearchCompetitiveCards"), 100, { numComponentNumber: i, strComponentStyle: "" });
 		}
-		this.objComponents.LobbyContentSearchCompetitiveStartComponent = new LobbyContentSearchCompetitiveStartComponent(this, $(".lobbyContentSearchCompetitive"), 500);
+		this.objComponents.LobbyContentSearchCompetitiveStartComponent = new LobbyContentSearchCompetitiveStartComponent(this, $(".lobbyContentSearchCompetitive"), 100);
 
 		window.engine.newAJAX("/php/API.php", { "component": "lobbyContentSearchCompetitive", "type": 0, "data": {} },
 			function (json) {

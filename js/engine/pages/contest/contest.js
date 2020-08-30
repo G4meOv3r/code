@@ -6,7 +6,7 @@ class ContestPage extends Page {
 
         this.objComponents.NotificationComponent = new NotificationComponent(this, $(".page"));
         this.objComponents.MenuComponent = new MenuComponent(this, this.elHTML.find(".pageMenu"), null);
-        this.objComponents.ContestStatusComponent = new ContestStatusComponent(this, this.elHTML.find(".pageInnerCentral"), 500);
+        this.objComponents.ContestStatusComponent = new ContestStatusComponent(this, this.elHTML.find(".pageInnerCentral"), 100);
         this.objComponents.ContestTeamComponent = new ContestTeamComponent(this, this.elHTML.find(".pageInnerCentral"), null);
         this.objComponents.ContestContentComponent = new ContestContentComponent(this, this.elHTML.find(".pageInnerCentral"), null);
     }

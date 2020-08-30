@@ -38,7 +38,7 @@ class LogoutComponent extends Component {
 	}
 
 	preload() {
-		let html = "<div class='logout' style='opacity: 0'> <div class='logoutLogo'> <img src='/logo.svg'> </div> </div>";
+		let html = "<div class='logout' style='opacity: 0'> <div class='logoutLogo'> <h1> CODE </h1> </div> </div>";
 		this.elHTML = this.elRoot.append(html).find(".logout");
 
 		window.engine.newAJAX(

@@ -35,8 +35,8 @@ class ContestStatusComponent extends Component {
                         }
 
 						//Other Components
-						component.objComponents.ContestStatusTimerComponent = new ContestStatusTimerComponent(component, component.elHTML, 500);
-						component.objComponents.ContestStatusQuitComponent = new ContestStatusQuitComponent(component, component.elHTML, 500);
+						component.objComponents.ContestStatusTimerComponent = new ContestStatusTimerComponent(component, component.elHTML, 100);
+						component.objComponents.ContestStatusQuitComponent = new ContestStatusQuitComponent(component, component.elHTML, 100);
 						component.ready(true);
 						break;
 				}
